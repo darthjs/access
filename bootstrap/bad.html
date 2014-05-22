@@ -50,29 +50,29 @@ body {
 			<h1>Table of Elements</h1>
 			<table class="table">
 				<tr>
-					<th scope="col">Name</th>
-					<th scope="col">Date</th>
-					<th scope="col">Image</th>
+					<th>Name</th>
+					<th>Date</th>
+					<th>Image</th>
 					<th></th>
 				</tr>
 				<tr>
-					<th scope="row">Apple</th>
+					<td>Apple</td>
 					<td>05/12/2013</td>
-					<td><img src="img/apple.jpg" alt="A ripe, red apple"/></td>
+					<td><img src="img/apple.jpg" /></td>
 					<td><a href="#" onclick="$('#commentmodal').modal();">Add
 							a Comment</a></td>
 				</tr>
 				<tr>
-					<th scope="row">Lake</th>
+					<td>Lake</td>
 					<td>05/01/2013</td>
-					<td><img src="img/lake.jpg" longdesc="A scenic landscape, taken from a high vantage point.  Looking across a sparsly-treed valley at a small mountain peak.  In the center of the valley is a clear, deep, blue lake."/></td>
+					<td><img src="img/lake.jpg" /></td>
 					<td><a href="#" onclick="$('#commentmodal').modal();">Add
 							a Comment</a></td>
 				</tr>
 				<tr>
-					<th scope="row">Tree</th>
+					<td>Tree</td>
 					<td>01/02/2014</td>
-					<td><img src="img/tree.jpg" alt="A large, green tree"/></td>
+					<td><img src="img/tree.jpg" /></td>
 					<td><a href="#" onclick="$('#commentmodal').modal();">Add
 							a Comment</a></td>
 				</tr>
@@ -91,7 +91,7 @@ body {
 					<label class="control-label" for="commentType">Comment
 						Type: </label>
 					<div class="controls">
-						<select id="commentType" name="commentType">
+						<select name="commentType">
 							<option>I like it!</option>
 							<option>I hate it!</option>
 							<option>Meh!</option>
@@ -101,7 +101,7 @@ body {
                 <div class="control-group">
                     <label class="control-label" for="message">Message: </label>
                     <div class="controls">
-                        <textarea id="message" name="message"></textarea>
+                        <textarea name="message"></textarea>
                     </div>
                 </div>
 
